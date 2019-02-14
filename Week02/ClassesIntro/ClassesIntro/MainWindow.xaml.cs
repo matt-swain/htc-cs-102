@@ -27,7 +27,8 @@ namespace ClassesIntro
 
         private void Bark_Button_Click(object sender, RoutedEventArgs e)
         {
-
+			Dog bob = new Dog();
+			bob.Bark();
         }
 
         private void SayName_Button_Click(object sender, RoutedEventArgs e)
